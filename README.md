@@ -16,11 +16,8 @@ Matériel requis:
    Carte de développement
 -Carte: NodeMCU ESP-12E
 
-Périphériques et Broches
-Périphérique	       Broche	          Fonction	                   Remarques
-DHT11	               D2 (GPIO4)	      DATA	                       Capteur température et humidité
-VCC	                 3.3V	            Alimentation	               Assurez-vous que le capteur supporte 3.3V
-GND	                 GND	            Masse	
+Périphériques et Broches:
+DHT11, D2 (GPIO4), DATA	, Capteur température et humidité;;;;;;; VCC, 3.3V, Alimentation, Assurez-vous que le capteur supporte 3.3V;;;;;;; GND, GND, Masse	
 
 Notes:
 -La lecture DHT11 peut être instable pour certains capteurs, surtout les modèles bas de gamme.
