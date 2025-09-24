@@ -1,5 +1,5 @@
 # Envoi_de_donnees_sur_cloud_tp1
-Envoi de donnees sur cloud
+Envoi de donnees sur cloud:>>>>
 Ce premier petit projet utilise un module Esp8266 (NodeMCU / ESP-12E) pour collecter les données environnementales depuis un capteur DHT11.Les mesures sont affichées sur le moniteur série et envoyées à une platforme IoT ThingSpeak pour suivi à distance. Idéal pour la surveillance simple de la température et de l'humidité dans une piéce ou un environnement domestique.
 
 Fonctionnalités principales
