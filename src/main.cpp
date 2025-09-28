@@ -5,8 +5,8 @@
 char ssid[] = "Ooredoo _S20_4EBF" ;
 char pass[] = "7730C317" ;
 // Configuration ThingSpeak
-unsigned long myChannelNumber = 455630;  // Corrigé le nom de variable
-const char * myWriteAPIKey = "JOMKSF62IFOY42XO";
+unsigned long myChannelNumber = 3092632;  
+const char * myWriteAPIKey = "E636ZLBIAWWU5YIQ";
 
 // Objet client WiFi et capteur DHT
 WiFiClient client;
@@ -58,6 +58,7 @@ void loop() {
   
   // Envoi des données à ThingSpeak
   ThingSpeak.writeField(myChannelNumber, 1, temp, myWriteAPIKey);  // Corrigé le nom de variable
+  delay(16000);
   ThingSpeak.writeField(myChannelNumber, 2, hum, myWriteAPIKey);   // Corrigé le nom de variable
   
   Serial.println("Données envoyées à ThingSpeak!");
